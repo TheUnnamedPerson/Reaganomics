@@ -1,0 +1,19 @@
+{
+    "ID" : 0,
+    "Name" : "Demo",
+    "Description" : "The UC Compton Figglehorn School of Law Educational Demo - How to Fight Not-So Legal Battles",
+    "Music" : 1,
+    "Dialogue" : 
+    [
+        {
+            "ID" : 1,
+            "Name" : "Fernando Fonseca",
+            "StartingOption" : "PartyMemberSelection.FernandoIntro"
+        },
+        {
+            "ID" : 2,
+            "Name" : "Kevin Watkins",
+            "StartingOption" : "PartyMemberSelection.KevinIntro"
+        }
+    ]
+}

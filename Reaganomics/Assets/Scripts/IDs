@@ -1,0 +1,51 @@
+Element IDs
+
+-7 = Random
+0 = No Element
+1 = Melee
+2 = Gun
+
+Status Effect IDs
+
+-1 = Clear All
+2 = POW
+3 = MAG
+4 = DEF
+5 = SPEED
+6 = LUCK
+7 = RES
+8 = INT
+9 = CHA
+10 = PER
+11 = BOLD
+12 = KIND
+13 = FRUGAL
+14 = HP Regen
+15 = MP Regen
+16 = Madness
+17 = Enraged
+18 = Addiction
+19 = Reflect Next Attack
+20 = Poison
+21 = ON FIRE
+
+
+
+Armor Effect IDs
+
+0 = maxHP
+1 = maxMP
+2 = POW
+3 = MAG
+4 = DEF
+5 = SPEED
+6 = LUCK
+7 = RES
+8 = INT
+9 = CHA
+10 = PER
+11 = BOLD
+12 = KIND
+13 = FRUGAL
+14 = HP Regen
+15 = MP Regen

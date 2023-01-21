@@ -1,0 +1,100 @@
+{
+    "Dialogue" : 
+    [
+        {
+            "Name" : "FernandoIntro",
+            "NPC_ID" : 1,
+            "Text" : [   
+                "Axe Two Meat You, Jimmy.",
+                "What Do You Want",
+                "Howdy.",
+                "...and then I told them \"Killer? I Hardly Know Her!\"",
+                "...and so They Forced to Onion Farmers to Buy Their Onions! Eventually though the onions began to spoil which meant they had to...",
+                "What ya Buyin?",
+                "Die.",
+                "They Call Me the Man Who's Gonna Burn Your House Down.",
+                "I fucking HATE so called \"deaf\" \"people\""
+            ],
+            "Choices" :
+            [
+                {"Text" : "Add To Party", "Result" : "Self.FernandoAccepted"},
+                {"Text" : "Don't Add to Party", "Result" : "Self.FernandoDeclined"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+        },
+        {
+            "Name" : "FernandoAccepted",
+            "NPC_ID" : 1,
+            "Text" : [   
+                "Cool.",
+                "Alright Then",
+                "ok",
+                "Lets Do This.",
+                "Yo Know What They Say.",
+                "In For a Nickle, In For a Dime, and I'm All outa Dimes.",
+                "Kowabunga",
+                "Onwards",
+                "To the Polls!",
+                "Two the Poles!"
+            ],
+            "Choices" :
+            [
+                {"Text": "%None", "Result": "%End"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+            
+        }, 
+        {
+            "Name" : "FernandoDeclined",
+            "NPC_ID" : 1,
+            "Text" : [   
+                "DIE.",
+                "I AM LIVING IN YOUR WALLS",
+                "ok",
+                "Your Loss.",
+                "Your | || || |_",
+                "In For a Nickle, In For a Dime, and I'm Gonna Break Your Fucking Kneecaps.",
+                "L",
+                "alright then",
+                "¯\\_(ツ)_/¯"
+            ],
+            "Choices" :
+            [
+                {"Text": "%None", "Result": "%End"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+        },
+        {
+            "Name" : "KevinIntro",
+            "NPC_ID" : 2,
+            "Text" : [   
+                "They call me Kevin.",
+                "Subscribe to GoldenLazer on YouTube.",
+                "I have 78 illegitimate children, 72 of which are with your mom.",
+                "2.8 Million Subscribers and Counting BB",
+                "[Inconherent Screaches]",
+                "What ya Sellin?",
+                "Die.",
+                "They Call Me the Man Who's Gonna Burn Your House Down.",
+                "I fucking HATE so called \"deaf\" \"people\""
+            ],
+            "Choices" :
+            [
+                {"Text" : "Ok", "Result" : "%End"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 0c621b265a26cdc43b5bbb767d2eea60
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jimmy_Back
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 8}
+        - {x: -3, y: 7}
+        - {x: -4, y: 7}
+        - {x: -4, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -11}
+        - {x: -1, y: -11}
+        - {x: -1, y: -12}
+        - {x: 4, y: -12}
+        - {x: 4, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 8}
+      physicsShape:
+      - - {x: -4, y: 3}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 8}
+        - {x: 4, y: 8}
+        - {x: 4, y: 7}
+        - {x: 5, y: 7}
+        - {x: 5, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: -2}
+        - {x: 5, y: -2}
+        - {x: 5, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -12}
+        - {x: 1, y: -12}
+        - {x: 1, y: -12}
+        - {x: -1, y: -12}
+        - {x: -1, y: -11}
+        - {x: 0, y: -11}
+        - {x: 0, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187d1d3a5af586a4eb133f8421ac3efc
+      internalID: 209525420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jimmy_Back_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 8}
+        - {x: -3, y: 7}
+        - {x: -4, y: 7}
+        - {x: -4, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -11}
+        - {x: -1, y: -11}
+        - {x: -1, y: -12}
+        - {x: 2, y: -12}
+        - {x: 2, y: -11}
+        - {x: 4, y: -11}
+        - {x: 4, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 8}
+      physicsShape:
+      - - {x: -4, y: 3}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 8}
+        - {x: 4, y: 8}
+        - {x: 4, y: 7}
+        - {x: 5, y: 7}
+        - {x: 5, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: -2}
+        - {x: 5, y: -2}
+        - {x: 5, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -11}
+        - {x: 2, y: -11}
+        - {x: 2, y: -12}
+        - {x: -1, y: -12}
+        - {x: -1, y: -11}
+        - {x: 0, y: -11}
+        - {x: 0, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3cabb6fcb40054b965ef29c3753cfd
+      internalID: 1909143803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jimmy_Back_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 8}
+        - {x: -3, y: 7}
+        - {x: -4, y: 7}
+        - {x: -4, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -10}
+        - {x: -1, y: -10}
+        - {x: -1, y: -11}
+        - {x: 2, y: -11}
+        - {x: 2, y: -12}
+        - {x: 4, y: -12}
+        - {x: 4, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 8}
+      physicsShape:
+      - - {x: -4, y: 3}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 8}
+        - {x: 4, y: 8}
+        - {x: 4, y: 7}
+        - {x: 5, y: 7}
+        - {x: 5, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: -2}
+        - {x: 5, y: -2}
+        - {x: 5, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -12}
+        - {x: 2, y: -12}
+        - {x: 2, y: -11}
+        - {x: -1, y: -11}
+        - {x: -1, y: -10}
+        - {x: 0, y: -10}
+        - {x: 0, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c14592674514da4ebfe4c1bd9b2830f
+      internalID: -409711854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jimmy_Back_Sit
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5625, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 8}
+        - {x: -3, y: 7}
+        - {x: -4, y: 7}
+        - {x: -4, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -11}
+        - {x: -2, y: -11}
+        - {x: -2, y: -12}
+        - {x: 3, y: -12}
+        - {x: 3, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: 7}
+        - {x: 4, y: 7}
+        - {x: 4, y: 8}
+      physicsShape:
+      - - {x: -4, y: 3}
+        - {x: -4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 8}
+        - {x: 4, y: 8}
+        - {x: 4, y: 7}
+        - {x: 5, y: 7}
+        - {x: 5, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: -2}
+        - {x: 5, y: -2}
+        - {x: 5, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: -12}
+        - {x: 1, y: -12}
+        - {x: 1, y: -12}
+        - {x: -2, y: -12}
+        - {x: -2, y: -11}
+        - {x: -1, y: -11}
+        - {x: -1, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9086bfd938f2d4283cfeb95cdd9613
+      internalID: 2049168342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jimmy_Back_Sit: 2049168342
+      Jimmy_Back_Walk_1: 1909143803
+      Jimmy_Back_Walk_2: -409711854
+      Jimmy_Sit: -1664381463
+      Jimmy_Walk_2: -180599984
+      Jimmy: 640636670
+      Jimmy_Walk_1: -807541607
+      Jimmy_Back: 209525420
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

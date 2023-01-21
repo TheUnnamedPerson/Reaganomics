@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PartyMember
+  - Enemy
+  - BattleManager
+  - TransitionCube
+  - 42
+  - Game Manager
+  - Canvas
+  - Terrain
+  - Roof
   layers:
   - Default
   - TransparentFX
@@ -11,8 +20,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Roofs
+  - Terrain
   - 
   - 
   - 
