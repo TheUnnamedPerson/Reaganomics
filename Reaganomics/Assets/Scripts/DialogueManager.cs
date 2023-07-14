@@ -39,6 +39,7 @@ public class DialogueManager : MonoBehaviour
         {
             npcDialogues[tup.ID].npcName = tup.Name;
             string[] location = tup.StartingOption.Split('.');
+            Debug.Log(location[0].ToString());
             npcDialogues[tup.ID].currentDialogue = activeDialogueAssets[location[0]][location[1]];
             npcDialogues[tup.ID].dialogueManager = this;
         }

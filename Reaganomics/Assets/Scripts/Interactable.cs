@@ -26,23 +26,24 @@ public class Interactable : MonoBehaviour
         
         for (int i = 0; i < objs.Length; i++)
         {
+            
             if (objs[i].GetComponent<Player>() != null && objs[i].GetComponent<Player>().partyLeader)
             {
                 player = objs[i];
             }
         }
 
-        inputIcon = transform.GetChild(1).gameObject;
+        inputIcon = transform.GetChild(0).gameObject;
 
         _play = player.GetComponent<Player>();
     }
 
     void Awake ()
     {
-        inputIcon = transform.GetChild(1).gameObject;
+        inputIcon = transform.GetChild(0).gameObject;
     }
     
-    void OnTriggerEnter2D (Collider2D other)
+    void OnTriggerEnter (Collider other)
     {
         if (other.gameObject == player)
         {
@@ -51,7 +52,7 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D (Collider2D other)
+    void OnTriggerExit (Collider other)
     {
         if (other.gameObject == player)
         {

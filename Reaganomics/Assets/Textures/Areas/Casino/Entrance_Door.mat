@@ -139,7 +139,11 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
+    - _addColoredNoise: 0
     - _alpha: 0.75
+    - _coloredNoiseScale: 16
+    - _coloredNoiseStrength: 0.1
+    - _coloredNoiseThreshold: 0.1
     - _customAlbedo: 1
     - _noiseScale: 21.3
     - _noiseStrength: 0.262
@@ -148,7 +152,7 @@ Material:
     - _useNormal: 0
     - _useTexture: 1
     m_Colors:
-    - _BaseColor: {r: 0.8584906, g: 0.8139045, b: 0.3779518, a: 1}
+    - _BaseColor: {r: 0.9339623, g: 0.7892179, b: 0.21733707, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
@@ -156,5 +160,7 @@ Material:
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _Tiling: {r: 1, g: 0.5, b: 0, a: 0}
+    - _coloredNoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _noiseColor: {r: 1, g: 1, b: 1, a: 1}
     - _noiseOffset: {r: 0, g: 2.1, b: 0, a: 0}
   m_BuildTextureStacks: []

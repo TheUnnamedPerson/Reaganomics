@@ -70,6 +70,7 @@ public class MainCamera : MonoBehaviour
                     if (lastRoof.GetComponent<TerrainObject>() != null) a = lastRoof.GetComponent<TerrainObject>().alpha;
                     tMat.SetFloat("_alpha", a);
                     lastRoof.material = tMat;
+                    if (lastRoof.GetComponent<TerrainObject>() != null && lastRoof.GetComponent<TerrainObject>().doChildren) foreach (Transform child in lastRoof.transform) child.GetComponent<MeshRenderer>().material = tMat;
                 }
                 CameraTransparency(true);
             }
@@ -96,12 +97,13 @@ public class MainCamera : MonoBehaviour
                 {
                     lastTerrain.GetComponent<MeshRenderer>().material = lastMat;
                     if (lastTerrain.GetComponent<TerrainObject>() != null && lastTerrain.GetComponent<TerrainObject>().doChildren) foreach (Transform child in lastTerrain.transform) child.GetComponent<MeshRenderer>().material = lastMat;
+                    lastTerrain = null;
+                    lastMat = null;
                 }
-                if (lastRoof != null && !ignoreRoof) lastRoof.GetComponent<MeshRenderer>().material = lastRoofMat;
-                lastTerrain = null;
-                lastMat = null;
-                if (!ignoreRoof)
+                if (lastRoof != null && !ignoreRoof)
                 {
+                    lastRoof.GetComponent<MeshRenderer>().material = lastRoofMat;
+                    if (lastRoof.GetComponent<TerrainObject>() != null && lastRoof.GetComponent<TerrainObject>().doChildren) foreach (Transform child in lastRoof.transform) child.GetComponent<MeshRenderer>().material = lastRoofMat;
                     lastRoof = null;
                     lastRoofMat = null;
                 }
@@ -113,12 +115,13 @@ public class MainCamera : MonoBehaviour
             {
                 lastTerrain.GetComponent<MeshRenderer>().material = lastMat;
                 if (lastTerrain.GetComponent<TerrainObject>() != null && lastTerrain.GetComponent<TerrainObject>().doChildren) foreach (Transform child in lastTerrain.transform) child.GetComponent<MeshRenderer>().material = lastMat;
+                lastTerrain = null;
+                lastMat = null;
             }
-            if (lastRoof != null && !ignoreRoof) lastRoof.GetComponent<MeshRenderer>().material = lastRoofMat;
-            lastTerrain = null;
-            lastMat = null;
-            if (!ignoreRoof)
+            if (lastRoof != null && !ignoreRoof)
             {
+                lastRoof.GetComponent<MeshRenderer>().material = lastRoofMat;
+                if (lastRoof.GetComponent<TerrainObject>() != null && lastRoof.GetComponent<TerrainObject>().doChildren) foreach (Transform child in lastRoof.transform) child.GetComponent<MeshRenderer>().material = lastRoofMat;
                 lastRoof = null;
                 lastRoofMat = null;
             }

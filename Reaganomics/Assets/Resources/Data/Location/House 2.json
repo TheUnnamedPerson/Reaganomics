@@ -1,0 +1,14 @@
+{
+    "ID" : 0,
+    "Name" : "House 2",
+    "Description" : "House 2 Test",
+    "Music" : 1,
+    "Dialogue" : 
+    [
+        {
+            "ID" : 0,
+            "Name" : "Narrator",
+            "StartingOption" : "Objects.TV1"
+        }
+    ]
+}

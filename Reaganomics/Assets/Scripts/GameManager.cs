@@ -31,15 +31,21 @@ public class GameManager : MonoBehaviour
     void Awake ()
     {
         DontDestroyOnLoad(gameObject);
-        dialogueManager = transform.GetChild(4).GetComponent<DialogueManager>();
-        musicPlayer = transform.GetChild(7).GetComponent<PlayAudio>();
-        LoadingScreen = transform.GetChild(6).gameObject;
-        LoadingScreen.SetActive(false);
+
         MainCam = transform.GetChild(1).GetComponent<Camera>();
-        MainCam.gameObject.SetActive(false);
-        CloseUpCam = transform.GetChild(2).GetComponent<Camera>();
-        Closeup = transform.GetChild(3).gameObject;
+        CloseUpCam = transform.GetChild(3).GetComponent<Camera>();
+        dialogueManager = transform.GetChild(5).GetComponent<DialogueManager>();
+        musicPlayer = transform.GetChild(8).GetComponent<PlayAudio>();
+        LoadingScreen = transform.GetChild(7).gameObject;
+        
+        
+        
+        
+        Closeup = transform.GetChild(4).gameObject;
+        
+        LoadingScreen.SetActive(false);
         transform.GetChild(6).gameObject.SetActive(true);
+        MainCam.gameObject.SetActive(false);
          
         if (devMode)
         {
@@ -59,6 +65,7 @@ public class GameManager : MonoBehaviour
                     player = objs[i].GetComponent<Player>();
                 }
             }
+            LoadDataFromScene();
         }
     }
 

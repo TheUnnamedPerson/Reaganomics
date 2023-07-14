@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Casino
   m_EditorClassIdentifier: 
   array:
-  - {fileID: 2100000, guid: bcec4af6b5e3ea24daafb9a21bd59121, type: 2}
-  - {fileID: 2100000, guid: bcec4af6b5e3ea24daafb9a21bd59121, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 2100000, guid: bfdcdbd3d6635bb44964485fe23d7671, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 826b79c119597954191b982682474aba, type: 2}
+  - {fileID: 2100000, guid: 35bf594fc1cead348a84b6c31fec3e22, type: 2}
+  - {fileID: 2100000, guid: 43c0ec3a436227d4cb0d66f178c035b9, type: 2}
+  - {fileID: 2100000, guid: 19337f605d3b0f34b81b943b8bdf8534, type: 2}
+  - {fileID: 2100000, guid: 20fef1bcedfad044c8c053e007ceaa48, type: 2}
+  - {fileID: 2100000, guid: af2a78f8c49481e45a81858e56a93fc2, type: 2}
+  - {fileID: 2100000, guid: 0a6d232e4bfc319418b8bf903f888690, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

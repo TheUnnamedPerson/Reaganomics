@@ -1,0 +1,66 @@
+{
+    "Dialogue" : 
+    [
+        {
+            "Name" : "TV1",
+            "NPC_ID" : 0,
+            "Text" : [   
+                "%NoPic%This Is Jimmy's TV. It Appears that Jimmy Loves Watching The Blue Channel."
+            ],
+            "Choices" :
+            [
+                {"Text" : "%None", "Result" : "Self.TV2"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+        },
+        {
+            "Name" : "TV2",
+            "NPC_ID" : 0,
+            "Text" : [
+                "%NoPic%LORE: The Blue Channel Was Originally Started in 1992 by Fans of the Widly Beloved Green Channel After it Was Taken off The Air."
+            ],
+            "Choices" :
+            [
+                {"Text": "%None", "Result": "Self.TV3"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+            
+        }, 
+        {
+            "Name" : "TV3",
+            "NPC_ID" : 0,
+            "Text" : [   
+                "%NoPic%LORE: The Blue Channel Then Experienced Rapidly Growing Viewership Until The Passing of The Television Decency Act of 2002 Where It Experienced a Stark Drop In Viewership."
+            ],
+            "Choices" :
+            [
+                {"Text": "%None", "Result": "Self.TV4"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+        },
+        {
+            "Name" : "TV4",
+            "NPC_ID" : 0,
+            "Text" : [   
+                "%NoPic%LORE: The Blue Channel Has Since Steadily Grown in Viewership, Currently Sitting as the 3rd Most Watched TV Channel of All-Time, Beloved by Many."
+            ],
+            "Choices" :
+            [
+                {"Text": "%None", "Result": "%End"}
+            ],
+            "Effects" : 
+            [
+                { "Method" : "%None", "TargetObject" : "%None" }
+            ]
+        }
+    ]
+}

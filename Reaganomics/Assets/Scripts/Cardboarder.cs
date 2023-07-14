@@ -42,7 +42,7 @@ public class Cardboarder : MonoBehaviour {
 		UpdatePolygonCollider2D();
 		foreach(Transform child in transform)
 		{
-			Destroy(child.gameObject);
+			if (child.gameObject.tag != "DoNotDestroy1") Destroy(child.gameObject);
 		}
 		CreateCardboardSideLineMesh();
 		CreateCardboardFace(0.01f);
@@ -85,10 +85,18 @@ public class Cardboarder : MonoBehaviour {
 				spriteRenderer.flipX = originalSpriteRenderer.flipX;
 				spriteRenderer.flipY = originalSpriteRenderer.flipY;
 
+				spriteRenderer.material = originalSpriteRenderer.material;
+				
+				spriteRenderer.shadowCastingMode = originalSpriteRenderer.shadowCastingMode;
+				spriteRenderer.receiveShadows = originalSpriteRenderer.receiveShadows;
+
 				SpriteLibrary sLib = obj.AddComponent<SpriteLibrary>();
 				sLib.spriteLibraryAsset = backLibrary;
 				SpriteResolver sRes = obj.AddComponent<SpriteResolver>();
 				sRes.SetCategoryAndLabel(GetComponent<SpriteResolver>().GetCategory(), GetComponent<SpriteResolver>().GetLabel());
+
+				spriteRenderer.transform.rotation = Quaternion.Euler(spriteRenderer.transform.rotation.eulerAngles + new Vector3(0, 180, 0));
+				spriteRenderer.transform.localScale = new Vector3(-1, 1, 1);
 			}
 		}
 	}

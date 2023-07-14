@@ -13,6 +13,7 @@ TagManager:
   - Canvas
   - Terrain
   - Roof
+  - DoNotDestroy1
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - UI
   - Roofs
   - Terrain
-  - 
+  - 3D Sprite
   - 
   - 
   - 
